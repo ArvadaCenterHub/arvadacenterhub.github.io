@@ -611,37 +611,6 @@ html[data-dir="rtl"] nav#page-nav > #backBtn, html:not([data-dir="rtl"]) nav#pag
 	0% {opacity:0;}
 	100% {opacity:1;}
 }
-#item6876 {
-	width:1619px !important;
-	height:2166px !important;
-	left:1px !important;
-	top:713px !important;
-	background:#446682;
-}
-
-@keyframes fadein-6876 {
-	0% {opacity:0;}
-	100% {opacity:1;}
-}
-@-webkit-keyframes fadein-6876 {
-	0% {opacity:0;}
-	100% {opacity:1;}
-}
-#item6878 {
-	width:1619px !important;
-	height:2880px !important;
-	left:1px !important;
-	background:#446682;
-}
-
-@keyframes fadeout-6878 {
-	0% {opacity:1;}
-	100% {opacity:0;}
-}
-@-webkit-keyframes fadeout-6878 {
-	0% {opacity:1;}
-	100% {opacity:0;}
-}
 @keyframes zoomout2d-7131 {
 	0% {
 		transform:translate(0px,0px) scaleX(1.2) scaleY(1.2);
