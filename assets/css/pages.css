@@ -420,39 +420,15 @@ ul.thumbs > li img { box-shadow:0 0 4px rgba(0, 0, 0, 0.5); }
 body, #container-wrap { background:#ededed; }
 :-webkit-full-screen { background:#ededed; }
 #loadIndicator span:after { padding-left:1ex; content:'loading content...'; }
-.page-scale-wrap { width:1242px; height:2208px; background: #fff !important; }
-.paper-vertical { width:1242px; height:100%; }
-.paper-horizontal { width:10px; height:2220px; }
-nav#page-nav { display:none; }
-html.nav-transition nav#page-nav { opacity:.3; pointer-events:none; }
-nav#page-nav > button {
-	display:block; position:fixed;
-	left:0;
-	top:50%;
-	width:68px;
-	height:68px;
-	margin:-34px 0 0 0; /*.5 height*/
-	text-align:center;
-	outline:0;
-	background:url(../images/arrows-slider.svg) no-repeat;
-	opacity:.7;
-	will-change:transform;
-}	
-nav#page-nav > button:hover { opacity:1; }
-nav#page-nav > #backBtn { left:0; }
-html[data-dir="rtl"] nav#page-nav > #backBtn, html:not([data-dir="rtl"]) nav#page-nav > #nextBtn { 
-	left:auto;
-	right:0; 
-	-ms-transform:scaleX(-1);
-	-moz-transform:scaleX(-1);
-	-webkit-transform:scaleX(-1);
-	transform:scaleX(-1);
-}
-@media all and (max-height:2208px) {
+#slider { width:1920px; height:1080px; }
+.page-scale-wrap { width:1920px; height:1080px; background: #fff !important; }
+.paper-vertical { width:1920px; height:100%; }
+.paper-horizontal { width:3860px; height:1092px; }
+@media all and (max-height:1080px) {
 	.paper-horizontal { margin:0;top:0;}
 	#container > .page { margin:0 auto;}/*pos top for webkit+baker*/
 }
-@media all and (max-width:1242px) {
+@media all and (max-width:1920px) {
 	.paper-vertical .page, .paper-horizontal .page, .anythingSlider-in5 { padding:0;top:0;border:0; }
 	.paper-vertical, .paper-horizontal { padding:0; }
 }
@@ -472,151 +448,23 @@ html[data-dir="rtl"] nav#page-nav > #backBtn, html:not([data-dir="rtl"]) nav#pag
 	-webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
-#item451 {
-	width:805px !important;
-	height:596px !important;
-	left:219px !important;
-	top:339px !important;
+#item535 {
+	width:1920px !important;
+	height:870px !important;
+	top:140px !important;
 }
 
-#item880 {
-	width:363px !important;
-	height:99px !important;
-	left:441px !important;
-	top:1616px !important;
+#item1366 {
+	width:200px !important;
+	height:462px !important;
+	left:3604px !important;
+	top:106px !important;
 }
 
-#item883 {
-	width:548px !important;
-	height:99px !important;
-	left:347px !important;
-	top:1784px !important;
-}
-
-#item877 {
-	width:297px !important;
-	height:99px !important;
-	left:472px !important;
-	top:1448px !important;
-}
-
-#item1280 {
-	width:1063px !important;
-	height:2034px !important;
-	left:90px !important;
-	top:174px !important;
-}
-
-#item763 {
-	width:191px !important;
-	height:141px !important;
-}
-
-#item892 {
-	width:191px !important;
-	height:141px !important;
-	left:205px !important;
-	top:87px !important;
-}
-
-#item874 {
-	width:186px !important;
-	height:49px !important;
-	left:221px !important;
-	top:297px !important;
-}
-
-#item886 {
-	width:220px !important;
-	height:49px !important;
-	left:425px !important;
-	top:297px !important;
-}
-
-#item889 {
-	width:358px !important;
-	height:49px !important;
-	left:663px !important;
-	top:299px !important;
-}
-
-#item1334 {
-	width:1063px !important;
-	height:2034px !important;
-	left:90px !important;
-	top:174px !important;
-}
-
-#item898 {
-	width:191px !important;
-	height:141px !important;
-}
-
-#item895 {
-	width:191px !important;
-	height:141px !important;
-	left:205px !important;
-	top:87px !important;
-}
-
-#item954 {
-	width:186px !important;
-	height:49px !important;
-	left:221px !important;
-	top:297px !important;
-}
-
-#item982 {
-	width:220px !important;
-	height:49px !important;
-	left:425px !important;
-	top:297px !important;
-}
-
-#item1009 {
-	width:358px !important;
-	height:49px !important;
-	left:663px !important;
-	top:299px !important;
-}
-
-#item1420 {
-	width:1063px !important;
-	height:2088px !important;
-	left:90px !important;
-	top:120px !important;
-}
-
-#item1016 {
-	width:191px !important;
-	height:141px !important;
-}
-
-#item1013 {
-	width:191px !important;
-	height:141px !important;
-	left:205px !important;
-	top:87px !important;
-}
-
-#item1071 {
-	width:186px !important;
-	height:49px !important;
-	left:221px !important;
-	top:297px !important;
-}
-
-#item1126 {
-	width:358px !important;
-	height:49px !important;
-	left:663px !important;
-	top:299px !important;
-}
-
-#item1098 {
-	width:220px !important;
-	height:49px !important;
-	left:425px !important;
-	top:297px !important;
+#item276 {
+	width:1848px !important;
+	height:1008px !important;
+	left:36px !important;
+	top:36px !important;
 }
 #in5footer,  #prefooter {display:none;}
