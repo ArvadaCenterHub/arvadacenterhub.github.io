@@ -420,10 +420,9 @@ ul.thumbs > li img { box-shadow:0 0 4px rgba(0, 0, 0, 0.5); }
 body, #container-wrap { background:#ededed; }
 :-webkit-full-screen { background:#ededed; }
 #loadIndicator span:after { padding-left:1ex; content:'loading content...'; }
-#slider { width:1920px; height:1080px; }
 .page-scale-wrap { width:1920px; height:1080px; background: #fff !important; }
 .paper-vertical { width:1920px; height:100%; }
-.paper-horizontal { width:3860px; height:1092px; }
+.paper-horizontal { width:10px; height:1092px; }
 @media all and (max-height:1080px) {
 	.paper-horizontal { margin:0;top:0;}
 	#container > .page { margin:0 auto;}/*pos top for webkit+baker*/
@@ -461,10 +460,63 @@ body, #container-wrap { background:#ededed; }
 	top:106px !important;
 }
 
-#item276 {
-	width:1848px !important;
-	height:1008px !important;
-	left:36px !important;
-	top:36px !important;
+#item2664 {
+	width:1080px !important;
+	height:571px !important;
+	top:94px !important;
+}
+
+#item2804 {
+	width:130px !important;
+	height:299px !important;
+	left:2332px !important;
+	top:72px !important;
+}
+
+#item2967 {
+	width:768px !important;
+	height:866px !important;
+	top:106px !important;
+}
+
+#item3109 {
+	width:92px !important;
+	height:213px !important;
+	left:1659px !important;
+	top:268px !important;
+}
+
+#item3744 {
+	width:640px !important;
+	height:957px !important;
+	top:112px !important;
+}
+
+#item3884 {
+	width:77px !important;
+	height:177px !important;
+	left:1382px !important;
+	top:341px !important;
+}
+
+#item4122 {
+	width:720px !important;
+	height:1199px !important;
+	top:206px !important;
+}
+
+#item4261 {
+	width:86px !important;
+	height:200px !important;
+	left:1555px !important;
+	top:445px !important;
 }
 #in5footer,  #prefooter {display:none;}
+
+[class*=" mq-"]{ display:none; }
+.mq-default { display:block; }
+@media all and (max-width:1240px){ [class*=" mq-"], .mq-default { display:none; } .mq-1080 {display:block; } }
+@media all and (max-width:928px){ [class*=" mq-"], .mq-default { display:none; } .mq-768 {display:block; } }
+@media all and (max-width:767px){ [class*=" mq-"], .mq-default { display:none; } .mq-720 {display:block; } }
+@media all and (max-width:767px){ [class*=" mq-"], .mq-default { display:none; } .mq-640 {display:block; } }
+
